@@ -1,0 +1,39 @@
+@media(max-width: 750px){
+    .cabecalho{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        font-size: 4rem;
+    }
+
+    .menu li{
+        margin-top: 50px;
+        padding: 33px;
+    }
+
+    .menu li a{
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .menu li:last-child{
+        margin-top: 20px;
+    }
+
+    .menu li a.botao{
+        font-size: 1.8rem;
+        padding: 15px 23px;
+        margin-left: 2rem;
+    }
+
+    .logo h1 {
+        font-size: 5rem;
+        margin-left: 5px;
+        font-weight: 800;
+    }
+}
